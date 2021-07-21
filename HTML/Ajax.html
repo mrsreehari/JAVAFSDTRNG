@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Status: <span id=”A1”></span></p>
+<p>Text: <span id=”A2”></span></p>
+<p>Response: <span id=”A3”></span></p>
+
+<button type="button" onclick="func()">BUTTON</button>
+
+<script>
+function funct(){
+	const xhttp = new XMLHttpRequest();
+	xhttp.onload = function(){
+	document.getEelementById("A1").innerHTML = abc;
+	document.getEelementById("A2").innerHTML = abc;
+	document.getEelementById("A3").innerHTML = abc;
+	}
+	xhttp.open("GET");
+	xhttp.send();
+
+	}
+</script>
+</body>
+</html>
