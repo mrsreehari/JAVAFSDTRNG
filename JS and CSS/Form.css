@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	font-family:monospace;
+	font-size: 13px;
+	color: black;
+	background:#00ffff;
+	margin: 20px;
+	}
+b {
+	font-size: 20px;
+	color:red;
+	font-size-adjust: bold;
+
+	}

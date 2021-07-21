@@ -1,0 +1,23 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: white;
+	background: black;
+	margin: 8px;
+	}
+	h1 {
+	font-size: 19px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid black
+	}
+	h2 {
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 5px solid red
+	}
+	.shaded { 
+	background: yellow
+	}
+	
