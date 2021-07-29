@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+body{
+	height: 125vh;  
+background-color:	 #f0f5f5;
+ 
+background-size: cover;  
+font-family: sans-serif; 
+}
+table{
+text-align:center;
+position:center;
+border: 1px solid black;
+border:collapse;
+ width: 100%;
+}
+
+th,td{
+border-bottom:1px solid #ddd;
+}
+
+th{
+height: 30px;
+background-color: #9DF9F6;
+}
+
+td{
+height :20px;
+
+}
+
