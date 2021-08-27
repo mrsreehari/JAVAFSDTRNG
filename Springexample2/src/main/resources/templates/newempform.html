@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/newempform.css}">
+</head>
+<body>
+<div class="box">
+<h2>Employee Details..</h2>
+<form action="#" th:action="@{/save}" th:object="${employee}"
+			method="POST">
+			<div><label>First Name</label>
+			<input type="text" th:field="*{firstName}"
+				placeholder="Employee First Name" >
+				</div>
+				<div><label>Last Name</label>
+				<input type="text" th:field="*{lastName}"
+				placeholder="Employee Last Name" >
+				</div>
+				<div><label>Email</label>
+				<input type="text" th:field="*{email}"
+				placeholder="Employee Email" >
+				</div>
+				<button type="submit" > Save Employee</button>
+		</form>
+</div>
+</body>
+</html>
