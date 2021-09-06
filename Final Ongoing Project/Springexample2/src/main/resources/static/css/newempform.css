@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+body {
+  background-image: url("/images/Employee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+	position:absolute;
+	top:25%;
+	left:40%;
+	width:400px;
+	background:#3e4444;
+	padding:40px;
+	box-sizing:border-box;
+	border:2px solid #3e4444;
+	border-radius:2px;
+	opacity:0.9;
+	
+}
+.box h2{
+	margin:0 0 40px;
+	padding:0;
+	colour:#F0FFFF;
+	text-transform:uppercase;
+	
+}
+.box input{
+	padding:10px 0;
+	margin-bottom:30px;
+	width:100%;
+	box-sizing:border-boxing;
+	
+}
+.box button[type="submit"]{
+	border-bottom:none;
+	cursor:pointer;
+	padding:15px 30px;
+	background:#8d9db6;
+	colour:#deeaee;
+	margin-bottom:0;
+	text-transform:uppercase;
+	length:20px;
+	border-radius:10px;
+	
+}
+.label{
+	colour:#F0FFFF;
+}
