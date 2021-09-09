@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+    color: azure;
+    font-style:inherit;
+    font-size:85px ;
+  /* background-color: rgb(22, 28, 73);*/
+  background-image:url("src/app/image/b1.png");
+   backdrop-filter: blur(20px);
+   
+}
+
+.card{
+  background-color: rgb(160, 160, 160);
+  border-radius: 10px;
+  width: 750px;
+  position: absolute;
+  top:180px;
+  opacity: 0.9;
+}
+
+h2{
+  color: aliceblue;
+  font-family: fantasy
+}
+
+.navbar{
+  position: absolute;
+  top: 126px;
+  width: 750px;
+  opacity: .9;
+  background: rgb(19, 18, 18);
+  border-radius: 10px;
+}
+
+
